@@ -1,0 +1,187 @@
+html{
+	/* margin: auto; 
+	max-width: 1050px; */ 
+	scroll-behavior: smooth;
+}
+
+table, th, tr, td{
+	/*border: 1px solid;*/
+	width: 80%;
+	text-align: center;
+	margin-bottom: 5em;
+	table-layout: fixed;
+	padding-top: 1em;
+}
+
+body{
+	font-family: "Georgia", serif;
+	color:#EEEBDD;
+	background-color: #000000;
+}
+
+h3{
+	padding-bottom: 2em;
+}
+
+button{
+	font-size: 16px;
+	background-color: #000000;
+	text-decoration: none;
+	border-radius: 8px;
+	border: 2px solid #EEEBDD;
+	width: 150px;
+	color: #EEEBDD;
+	display: inline-block;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-left: 45em;
+}
+
+ion-icon {
+  color: white;
+  font-size: 32px;
+  margin: 1em;
+}
+
+/*Class*/
+.comingsoon{
+	text-align: center;
+	margin-top: 8em;
+}
+
+.constructionIcon{
+	margin-top: 1em;
+	margin-left: 18em;
+}
+
+.aboutmeTitle{
+	padding-bottom: 1em;
+}
+
+.aboutmeText{
+	padding-right:4em;
+	padding-left:2em;
+}
+
+.resumeButton{
+	font-size: 16px;
+	background-color: #000000;
+	text-decoration: none;
+	border-radius: 8px;
+	text-align: center;
+	border: 2px solid #EEEBDD;
+	width: 150px;
+	color: #EEEBDD;
+	display: inline-block;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-left: 48em;
+}
+
+.futureVenturesText{
+	margin-bottom: 2.5em;
+}
+
+.futureVentureList{
+	padding: 5px 0px;
+}
+.nav{
+	/*background: #D8B6A4;*/
+	color: inherit;
+	margin-bottom:10em;
+}
+
+.TitleHeader{
+	margin-right: auto;
+	margin-left: auto;
+	width:10em;
+}
+.TitleHeader2{
+	text-align: center;
+	margin-bottom: 8em;
+}
+
+.emailButton{
+	font-size: 16px;
+	background-color: #000000;
+	text-decoration: none;
+	border-radius: 8px;
+	border: 2px solid #EEEBDD;
+	width: 150px;
+	color: #EEEBDD;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 2em;
+	margin-left: 29em;
+}
+
+.footerLogo{
+	padding: 1em;	
+	margin: 10px 20px 10px 20px;
+}
+
+.topButton{
+	/*margin-left: 20em;*/
+	position: fixed;
+	bottom: 20px; right: 20px;
+	z-index: 999;
+}
+/*ID*/
+#navItems{
+	list-style-type: none;
+	margin: 0;
+	padding; 0;
+	overflow: hidden;
+}
+
+#navTitle{
+	/*display: inline; otheroption for nav bar*/
+	float: right;
+	color: inherit;
+	margin: 8px;
+}
+
+#navAppearance{
+	display: block;
+	padding: 8px;
+	background-color: #000000; /*D8B6A4*/
+	color: #EEEBDD;
+	text-align: center;
+	text-decoration: none;
+}
+
+#navAppearance2{
+	display: block;
+	padding: 8px;
+	color: #EEEBDD;
+	text-align: center;
+	text-decoration: none;
+	background-color: #630000;
+}
+
+#navTitle a:hover{
+	background-color: #D8B6A4; /*#000000*/
+	color: inherit;
+}
+
+#siteFooter{
+	background-color: #630000;
+	text-align: center;
+	/*height: 50px;*/
+	width: 100%;
+}
+
+#siteStructure{
+	margin: auto; 
+	max-width: 1050px; 
+}
+
+#footer2{
+	text-decoration: none;
+	color: #EEEBDD;
+}
+
+#footer2:hover{
+	background-color: #D8B6A4;
+}
+
